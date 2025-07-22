@@ -21,6 +21,9 @@ app_license = "mit"
 # 	}
 # ]
 
+fixtures = ["Custom Field",]
+
+
 # Includes in <head>
 # ------------------
 
