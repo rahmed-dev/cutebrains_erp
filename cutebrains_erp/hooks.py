@@ -42,6 +42,16 @@ fixtures = ["Custom Field",]
 # webform_include_js = {"doctype": "public/js/doctype.js"}
 # webform_include_css = {"doctype": "public/css/doctype.css"}
 
+# Salary Slip Events
+doc_events = {
+    "Salary Slip": {
+        "validate": "cutebrains_erp.brains_hrms.events.salary_slip.set_deduction_days"
+    }
+}
+
+
+
+
 # include js in page
 # page_js = {"page" : "public/js/file.js"}
 
