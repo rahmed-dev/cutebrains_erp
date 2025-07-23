@@ -45,11 +45,9 @@ fixtures = ["Custom Field",]
 # Salary Slip Events
 doc_events = {
     "Salary Slip": {
-        "validate": "cutebrains_erp.brains_hrms.events.salary_slip.set_deduction_days"
+        "before_insert": "cutebrains_erp.brains_hrms.events.salary_slip.set_deduction_days"
     }
 }
-
-
 
 
 # include js in page
